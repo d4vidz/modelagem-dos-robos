@@ -1,0 +1,18 @@
+[project]
+name = "2r-planar-robot"
+version = "0.1.0"
+description = "2R planar robot simulation using Robotics Toolbox"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy>=1.25.0",
+    "scipy>=1.10.1", 
+    "matplotlib>=3.5.3",
+    "roboticstoolbox-python>=1.1.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []
